@@ -529,15 +529,15 @@ proxy-groups:
 - name: 🇯🇵 日本故转
   type: fallback
   proxies:
-    - 日本自动©️1
-    - 日本自动©️2
-    - 日本自动©️3
-    - 日本自动©️4
-    - 日本自动©️5
+    - 🇯🇵 日本自动©️1
+    - 🇯🇵 日本自动©️2
+    - 🇯🇵 日本自动©️3
+    - 🇯🇵 日本自动©️4
+    - 🇯🇵 日本自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 日本自动©️1
+- name: 🇯🇵 日本自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -546,7 +546,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 日本自动©️2
+- name: 🇯🇵 日本自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -555,7 +555,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 日本自动©️3
+- name: 🇯🇵 日本自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -564,7 +564,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 日本自动©️4
+- name: 🇯🇵 日本自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -573,7 +573,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 日本自动©️5
+- name: 🇯🇵 日本自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -595,15 +595,15 @@ proxy-groups:
 - name: 🇸🇬 新加坡故转
   type: fallback
   proxies:
-    - 新加坡自动©️1
-    - 新加坡自动©️2
-    - 新加坡自动©️3
-    - 新加坡自动©️4
-    - 新加坡自动©️5
+    - 🇸🇬 新加坡自动©️1
+    - 🇸🇬 新加坡自动©️2
+    - 🇸🇬 新加坡自动©️3
+    - 🇸🇬 新加坡自动©️4
+    - 🇸🇬 新加坡自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 新加坡自动©️1
+- name: 🇸🇬 新加坡自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -612,7 +612,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 新加坡自动©️2
+- name: 🇸🇬 新加坡自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -621,7 +621,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 新加坡自动©️3
+- name: 🇸🇬 新加坡自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -630,7 +630,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 新加坡自动©️4
+- name: 🇸🇬 新加坡自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -639,7 +639,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 新加坡自动©️5
+- name: 🇸🇬 新加坡自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -661,15 +661,15 @@ proxy-groups:
 - name: 🇹🇼 台湾故转
   type: fallback
   proxies:
-    - 台湾自动©️1
-    - 台湾自动©️2
-    - 台湾自动©️3
-    - 台湾自动©️4
-    - 台湾自动©️5
+    - 🇹🇼 台湾自动©️1
+    - 🇹🇼 台湾自动©️2
+    - 🇹🇼 台湾自动©️3
+    - 🇹🇼 台湾自动©️4
+    - 🇹🇼 台湾自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 台湾自动©️1
+- name: 🇹🇼 台湾自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -678,7 +678,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 台湾自动©️2
+- name: 🇹🇼 台湾自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -687,7 +687,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 台湾自动©️3
+- name: 🇹🇼 台湾自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -696,7 +696,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 台湾自动©️4
+- name: 🇹🇼 台湾自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -705,7 +705,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 台湾自动©️5
+- name: 🇹🇼 台湾自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -727,15 +727,15 @@ proxy-groups:
 - name: 🇭🇰 香港故转
   type: fallback
   proxies:
-    - 香港自动©️1
-    - 香港自动©️2
-    - 香港自动©️3
-    - 香港自动©️4
-    - 香港自动©️5
+    - 🇭🇰 香港自动©️1
+    - 🇭🇰 香港自动©️2
+    - 🇭🇰 香港自动©️3
+    - 🇭🇰 香港自动©️4
+    - 🇭🇰 香港自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 香港自动©️1
+- name: 🇭🇰 香港自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -744,7 +744,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 香港自动©️2
+- name: 🇭🇰 香港自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -753,7 +753,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 香港自动©️3
+- name: 🇭🇰 香港自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -762,7 +762,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 香港自动©️4
+- name: 🇭🇰 香港自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -771,7 +771,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 香港自动©️5
+- name: 🇭🇰 香港自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -793,15 +793,15 @@ proxy-groups:
 - name: 🇲🇴 澳门故转
   type: fallback
   proxies:
-    - 澳门自动©️1
-    - 澳门自动©️2
-    - 澳门自动©️3
-    - 澳门自动©️4
-    - 澳门自动©️5
+    - 🇲🇴 澳门自动©️1
+    - 🇲🇴 澳门自动©️2
+    - 🇲🇴 澳门自动©️3
+    - 🇲🇴 澳门自动©️4
+    - 🇲🇴 澳门自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 澳门自动©️1
+- name: 🇲🇴 澳门自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -810,7 +810,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 澳门自动©️2
+- name: 🇲🇴 澳门自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -819,7 +819,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 澳门自动©️3
+- name: 🇲🇴 澳门自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -828,7 +828,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 澳门自动©️4
+- name: 🇲🇴 澳门自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -837,7 +837,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 澳门自动©️5
+- name: 🇲🇴 澳门自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -859,15 +859,15 @@ proxy-groups:
 - name: 🇰🇷 韩国故转
   type: fallback
   proxies:
-    - 韩国自动©️1
-    - 韩国自动©️2
-    - 韩国自动©️3
-    - 韩国自动©️4
-    - 韩国自动©️5
+    - 🇰🇷 韩国自动©️1
+    - 🇰🇷 韩国自动©️2
+    - 🇰🇷 韩国自动©️3
+    - 🇰🇷 韩国自动©️4
+    - 🇰🇷 韩国自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 韩国自动©️1
+- name: 🇰🇷 韩国自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -876,7 +876,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 韩国自动©️2
+- name: 🇰🇷 韩国自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -885,7 +885,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 韩国自动©️3
+- name: 🇰🇷 韩国自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -894,7 +894,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 韩国自动©️4
+- name: 🇰🇷 韩国自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -903,7 +903,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 韩国自动©️5
+- name: 🇰🇷 韩国自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -925,15 +925,15 @@ proxy-groups:
 - name: 🇺🇸 美国故转
   type: fallback
   proxies:
-    - 美国自动©️1
-    - 美国自动©️2
-    - 美国自动©️3
-    - 美国自动©️4
-    - 美国自动©️5
+    - 🇺🇸 美国自动©️1
+    - 🇺🇸 美国自动©️2
+    - 🇺🇸 美国自动©️3
+    - 🇺🇸 美国自动©️4
+    - 🇺🇸 美国自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 美国自动©️1
+- name: 🇺🇸 美国自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -942,7 +942,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 美国自动©️2
+- name: 🇺🇸 美国自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -951,7 +951,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 美国自动©️3
+- name: 🇺🇸 美国自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -960,7 +960,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 美国自动©️4
+- name: 🇺🇸 美国自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -969,7 +969,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 美国自动©️5
+- name: 🇺🇸 美国自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -991,15 +991,15 @@ proxy-groups:
 - name: 🇬🇧 英国故转
   type: fallback
   proxies:
-    - 英国自动©️1
-    - 英国自动©️2
-    - 英国自动©️3
-    - 英国自动©️4
-    - 英国自动©️5
+    - 🇬🇧 英国自动©️1
+    - 🇬🇧 英国自动©️2
+    - 🇬🇧 英国自动©️3
+    - 🇬🇧 英国自动©️4
+    - 🇬🇧 英国自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 英国自动©️1
+- name: 🇬🇧 英国自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -1008,7 +1008,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 英国自动©️2
+- name: 🇬🇧 英国自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -1017,7 +1017,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 英国自动©️3
+- name: 🇬🇧 英国自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -1026,7 +1026,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 英国自动©️4
+- name: 🇬🇧 英国自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -1035,7 +1035,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 英国自动©️5
+- name: 🇬🇧 英国自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -1057,15 +1057,15 @@ proxy-groups:
 - name: 🇩🇪 德国故转
   type: fallback
   proxies:
-    - 德国自动©️1
-    - 德国自动©️2
-    - 德国自动©️3
-    - 德国自动©️4
-    - 德国自动©️5
+    - 🇩🇪 德国自动©️1
+    - 🇩🇪 德国自动©️2
+    - 🇩🇪 德国自动©️3
+    - 🇩🇪 德国自动©️4
+    - 🇩🇪 德国自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 德国自动©️1
+- name: 🇩🇪 德国自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -1074,7 +1074,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 德国自动©️2
+- name: 🇩🇪 德国自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -1083,7 +1083,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 德国自动©️3
+- name: 🇩🇪 德国自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -1092,7 +1092,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 德国自动©️4
+- name: 🇩🇪 德国自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -1101,7 +1101,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 德国自动©️5
+- name: 🇩🇪 德国自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -1123,15 +1123,15 @@ proxy-groups:
 - name: 🇫🇷 法国故转
   type: fallback
   proxies:
-    - 法国自动©️1
-    - 法国自动©️2
-    - 法国自动©️3
-    - 法国自动©️4
-    - 法国自动©️5
+    - 🇫🇷 法国自动©️1
+    - 🇫🇷 法国自动©️2
+    - 🇫🇷 法国自动©️3
+    - 🇫🇷 法国自动©️4
+    - 🇫🇷 法国自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 法国自动©️1
+- name: 🇫🇷 法国自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -1140,7 +1140,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 法国自动©️2
+- name: 🇫🇷 法国自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -1149,7 +1149,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 法国自动©️3
+- name: 🇫🇷 法国自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -1158,7 +1158,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 法国自动©️4
+- name: 🇫🇷 法国自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -1167,7 +1167,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 法国自动©️5
+- name: 🇫🇷 法国自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -1189,15 +1189,15 @@ proxy-groups:
 - name: 🇳🇱 荷兰故转
   type: fallback
   proxies:
-    - 荷兰自动©️1
-    - 荷兰自动©️2
-    - 荷兰自动©️3
-    - 荷兰自动©️4
-    - 荷兰自动©️5
+    - 🇳🇱 荷兰自动©️1
+    - 🇳🇱 荷兰自动©️2
+    - 🇳🇱 荷兰自动©️3
+    - 🇳🇱 荷兰自动©️4
+    - 🇳🇱 荷兰自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 荷兰自动©️1
+- name: 🇳🇱 荷兰自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -1206,7 +1206,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 荷兰自动©️2
+- name: 🇳🇱 荷兰自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -1215,7 +1215,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 荷兰自动©️3
+- name: 🇳🇱 荷兰自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -1224,7 +1224,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 荷兰自动©️4
+- name: 🇳🇱 荷兰自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -1233,7 +1233,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 荷兰自动©️5
+- name: 🇳🇱 荷兰自动©️5
   type: url-test
   use:
     - Fifth-VPS
@@ -1255,15 +1255,15 @@ proxy-groups:
 - name: 🇷🇺 俄罗斯故转
   type: fallback
   proxies:
-    - 俄罗斯自动©️1
-    - 俄罗斯自动©️2
-    - 俄罗斯自动©️3
-    - 俄罗斯自动©️4
-    - 俄罗斯自动©️5
+    - 🇷🇺 俄罗斯自动©️1
+    - 🇷🇺 俄罗斯自动©️2
+    - 🇷🇺 俄罗斯自动©️3
+    - 🇷🇺 俄罗斯自动©️4
+    - 🇷🇺 俄罗斯自动©️5
   url: http://www.gstatic.com/generate_204
   interval: 900
   timeout: 15
-- name: 俄罗斯自动©️1
+- name: 🇷🇺 俄罗斯自动©️1
   type: url-test
   use:
     - Primary-VPS
@@ -1272,7 +1272,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 俄罗斯自动©️2
+- name: 🇷🇺 俄罗斯自动©️2
   type: url-test
   use:
     - Backup-VPS
@@ -1281,7 +1281,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 俄罗斯自动©️3
+- name: 🇷🇺 俄罗斯自动©️3
   type: url-test
   use:
     - Third-VPS
@@ -1290,7 +1290,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 俄罗斯自动©️4
+- name: 🇷🇺 俄罗斯自动©️4
   type: url-test
   use:
     - Fourth-VPS
@@ -1299,7 +1299,7 @@ proxy-groups:
   interval: 900
   timeout: 15
   tolerance: 50
-- name: 俄罗斯自动©️5
+- name: 🇷🇺 俄罗斯自动©️5
   type: url-test
   use:
     - Fifth-VPS
