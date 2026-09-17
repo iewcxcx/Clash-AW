@@ -96,8 +96,6 @@ dns:
   - '*.msftconnecttest.com'
   - '*.msftncsi.com'
   - '*.msidentity.com'
-  - captive.apple.com
-  - '*.push.apple.com'
   - stun.*
   - +.stun.*.*
   - +.stun.*.*.*
@@ -118,7 +116,6 @@ proxy-groups:
   proxies:
     - 🖥️ 全局订阅
     - ⚡ 自动测速
-    - 🔔 苹果推送
     - 🇯🇵 日本全局自动
     - 🇸🇬 新加坡全局自动
     - 🇹🇼 台湾全局自动
@@ -144,19 +141,7 @@ proxy-groups:
   interval: 600
   tolerance: 50
 
-- name: 🔔 苹果推送
-  type: fallback
-  proxies:
-    - 🍎 苹果故转
-    - DIRECT
 
-- name: 🍎 苹果故转
-  type: fallback
-  include-all: true
-  exclude-filter: (?i)^(🔔 苹果推送|🍎 苹果故转)$
-  url: http://captive.apple.com/hotspot-detect.html
-  interval: 300
-  
 - name: 📡 Google
   type: select
   proxies:
@@ -1315,18 +1300,6 @@ rules:
 - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 - GEOIP,LAN,DIRECT,no-resolve
-- DOMAIN-SUFFIX,push.apple.com,🔔 苹果推送
-- DOMAIN-SUFFIX,push-apple.com.akadns.net,🔔 苹果推送
-- DOMAIN-KEYWORD,apple.com.edgekey.net,🔔 苹果推送
-- IP-CIDR,17.249.0.0/16,🔔 苹果推送,no-resolve
-- IP-CIDR,17.252.0.0/16,🔔 苹果推送,no-resolve
-- IP-CIDR,17.57.144.0/22,🔔 苹果推送,no-resolve
-- IP-CIDR,17.188.128.0/18,🔔 苹果推送,no-resolve
-- IP-CIDR,17.188.20.0/23,🔔 苹果推送,no-resolve
-- IP-CIDR6,2620:149:a44::/48,🔔 苹果推送,no-resolve
-- IP-CIDR6,2403:300:a42::/48,🔔 苹果推送,no-resolve
-- IP-CIDR6,2403:300:a51::/48,🔔 苹果推送,no-resolve
-- IP-CIDR6,2a01:b740:a42::/48,🔔 苹果推送,no-resolve
 - DOMAIN-SUFFIX,youtube.com,📹 YouTube
 - DOMAIN-SUFFIX,youtu.be,📹 YouTube
 - DOMAIN-SUFFIX,youtube-nocookie.com,📹 YouTube
@@ -1486,8 +1459,6 @@ rules:
 - DOMAIN-SUFFIX,ooklaserver.net,✈️ Speedtest
 - DOMAIN-SUFFIX,ookla.net,✈️ Speedtest
 - DOMAIN-SUFFIX,speedtestcustom.com,✈️ Speedtest
-- RULE-SET,Apple,DIRECT
-- RULE-SET,Apple_Domain,DIRECT
 - RULE-SET,AdvertisingLite,REJECT
 - RULE-SET,AdvertisingLite_Domain,REJECT
 - RULE-SET,Privacy,REJECT
@@ -1508,18 +1479,6 @@ rules:
 - GEOIP,CN,DIRECT,no-resolve
 - MATCH,🚀 代理总控
 rule-providers:
-  Apple:
-    type: http
-    behavior: classical
-    format: yaml
-    interval: 86400
-    url: https://raw.githubusercontent.com/iewcxcx/Clash-ios/main/Apple.yaml
-  Apple_Domain:
-    type: http
-    behavior: domain
-    format: mrs
-    interval: 86400
-    url: https://raw.githubusercontent.com/iewcxcx/Clash-ios/main/Apple_Domain.mrs
   AdvertisingLite:
     type: http
     behavior: classical
