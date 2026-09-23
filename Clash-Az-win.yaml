@@ -29,6 +29,7 @@ external-controller: 127.0.0.1:9090
 unified-delay: true
 tcp-concurrent: true
 ipv6: false
+
 tun:
   enable: true
   stack: gvisor
@@ -37,6 +38,7 @@ tun:
   strict-route: true
   dns-hijack:
   - any:53
+
 dns:
   enable: true
   respect-rules: true
@@ -106,6 +108,7 @@ dns:
   - +.qq.com
   - +.tencent.com
   - speedtest.net
+
 profile:
   store-selected: true
   store-fake-ip: true
@@ -1472,6 +1475,7 @@ rules:
 - DOMAIN,onedrive.live.com,🚀 代理总控
 - DOMAIN-SUFFIX,1drv.com,🚀 代理总控
 - DOMAIN-KEYWORD,tiktok,🚀 代理总控
+- DOMAIN-SUFFIX,browserleaks.com,🚀 代理总控
 - RULE-SET,ChinaMax,DIRECT
 - RULE-SET,ChinaMax_Domain,DIRECT
 - RULE-SET,ChinaMax_IP,DIRECT
