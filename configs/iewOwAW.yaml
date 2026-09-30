@@ -254,7 +254,7 @@ proxy-groups:
 
 - name: WhatsApp
   type: select
-  icon: https://raw.githubusercontent.com/Hawaiine/Oasisic-Icons/main/icons/Social/WhatsApp/WhatsApp.png
+  icon: https://raw.githubusercontent.com/f3liiix/clash/refs/heads/main/icons/Whatsapp.png
   proxies:
     - 代理总控
     - 全局订阅
